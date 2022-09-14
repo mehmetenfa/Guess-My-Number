@@ -77,3 +77,29 @@ document.querySelector(".guess-input").addEventListener("keydown", (e) => {
     document.querySelector(".check-btn").click();
   }
 });
+
+//! LOCALSTORAGE- SESSIONSTORAGE
+// myObj = { a: 1, b: 2, c: 3 };
+// localStorage.setItem("OBJ", JSON.stringify(myObj));
+// const readObj = localStorage.getItem("OBJ");
+// const readOBJ = JSON.parse(localStorage.getItem("OBJ"));
+// console.log(typeof readObj);
+// console.log(typeof readOBJ);
+// console.log(readOBJ);
+
+//* PUSEDUO
+//? eger score > topScore
+//?     topScore = score
+//? secret_number = gorunur.
+
+//! değilse
+//! eger score > 0
+//!   score = score -1
+//?   eğer rasgele < input.value
+//?     AZALT
+//?   degilse
+//?     ARTTIR
+//! degise
+//? Uzgunuz kaybetiniz.
+
+//* againBtn basildiginda kontrolleri yap
